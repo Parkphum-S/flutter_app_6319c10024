@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:flutter_app_6319c10024/views/register_ui.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class LoginUI extends StatefulWidget {
@@ -154,8 +154,8 @@ class _LoginUIState extends State<LoginUI> {
                       ),
                     ),
                     style: ElevatedButton.styleFrom(
-                      primary: Color.fromARGB(255, 0, 58, 86),
-                      minimumSize: const Size.fromHeight(45),
+                      primary: Color.fromARGB(255, 30, 42, 76),
+                      minimumSize: const Size.fromHeight(50),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(50.0),
                       ),
@@ -170,11 +170,11 @@ class _LoginUIState extends State<LoginUI> {
                   style: TextStyle(
                     fontSize: 15.0,
                     fontWeight: FontWeight.w500,
-                    color: Colors.grey[600],
+                    color: Colors.white,
                   ),
                 ),
                 SizedBox(
-                  height: 10.0,
+                  height: 20.0,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -247,7 +247,14 @@ class _LoginUIState extends State<LoginUI> {
                       width: 5.0,
                     ),
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => RegisterUI(),
+                          ),
+                        );
+                      },
                       child: Text(
                         "Sign Up",
                         style: TextStyle(
