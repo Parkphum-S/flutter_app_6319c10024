@@ -75,16 +75,35 @@ class _LoginUIState extends State<LoginUI> {
                     child: Column(
                       children: [
                         TextField(
+                          keyboardType: TextInputType.text,
                           decoration: InputDecoration(
-                            prefix: Icon(
+                            fillColor: Colors.white,
+                            filled: true,
+                            hintText: 'ป้อนรหัสนักศึกษา',
+                            prefixIcon: Icon(
                               FontAwesomeIcons.user,
                               color: Colors.blue,
                             ),
-                            fillColor: Colors.grey.shade100,
-                            filled: true,
-                            hintText: '   ป้อนรหัสนักศึกษา',
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(90),
+                            floatingLabelBehavior: FloatingLabelBehavior.always,
+                            focusedBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                                color: Colors.blue,
+                                width: 1.5,
+                              ),
+                              borderRadius: BorderRadius.all(
+                                Radius.circular(50.0),
+                              ),
+                              gapPadding: 5,
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                                color: Colors.blue,
+                                width: 1.5,
+                              ),
+                              borderRadius: BorderRadius.all(
+                                Radius.circular(50.0),
+                              ),
+                              gapPadding: 5,
                             ),
                           ),
                         ),
@@ -101,16 +120,35 @@ class _LoginUIState extends State<LoginUI> {
                     child: Column(
                       children: [
                         TextField(
+                          keyboardType: TextInputType.text,
                           decoration: InputDecoration(
-                            prefix: Icon(
+                            fillColor: Colors.white,
+                            filled: true,
+                            hintText: 'ป้อนรหัสผ่าน',
+                            prefixIcon: Icon(
                               Icons.lock_outline,
                               color: Colors.blue,
                             ),
-                            fillColor: Color.fromARGB(255, 241, 239, 239),
-                            filled: true,
-                            hintText: '     ป้อนรหัสผ่าน',
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(90),
+                            floatingLabelBehavior: FloatingLabelBehavior.always,
+                            focusedBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                                color: Colors.blue,
+                                width: 1.5,
+                              ),
+                              borderRadius: BorderRadius.all(
+                                Radius.circular(50.0),
+                              ),
+                              gapPadding: 5,
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                                color: Colors.blue,
+                                width: 1.5,
+                              ),
+                              borderRadius: BorderRadius.all(
+                                Radius.circular(50.0),
+                              ),
+                              gapPadding: 5,
                             ),
                           ),
                         ),
