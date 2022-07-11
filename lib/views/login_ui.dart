@@ -206,9 +206,9 @@ class _LoginUIState extends State<LoginUI> {
                 Text(
                   'Or login with',
                   style: TextStyle(
-                    fontSize: 15.0,
+                    fontSize: 16.0,
                     fontWeight: FontWeight.w500,
-                    color: Colors.white,
+                    color: Color.fromARGB(255, 100, 100, 101),
                   ),
                 ),
                 SizedBox(
@@ -218,8 +218,6 @@ class _LoginUIState extends State<LoginUI> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     SizedBox(
-                      width: 135,
-                      height: 35,
                       child: ElevatedButton.icon(
                         icon: Icon(
                           FontAwesomeIcons.facebookF,
@@ -235,16 +233,14 @@ class _LoginUIState extends State<LoginUI> {
                         ),
                         style: ElevatedButton.styleFrom(
                           primary: Color.fromARGB(255, 66, 103, 178),
-                          minimumSize: Size(40, 40),
+                          minimumSize: Size(30, 30),
                         ),
                       ),
                     ),
                     SizedBox(
-                      width: 30.0,
+                      width: 20.0,
                     ),
                     SizedBox(
-                      width: 135,
-                      height: 35,
                       child: ElevatedButton.icon(
                         icon: Icon(
                           FontAwesomeIcons.google,
@@ -260,11 +256,37 @@ class _LoginUIState extends State<LoginUI> {
                         ),
                         style: ElevatedButton.styleFrom(
                           primary: Color.fromARGB(255, 219, 68, 55),
-                          minimumSize: Size(40, 30),
+                          minimumSize: Size(30, 30),
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 20.0,
+                    ),
+                    SizedBox(
+                      child: ElevatedButton.icon(
+                        icon: Icon(
+                          FontAwesomeIcons.apple,
+                          color: Colors.white,
+                          size: 15.0,
+                        ),
+                        onPressed: () {},
+                        label: Text(
+                          ' Apple ID',
+                          style: TextStyle(
+                            fontSize: 15,
+                          ),
+                        ),
+                        style: ElevatedButton.styleFrom(
+                          primary: Color.fromARGB(255, 56, 56, 56),
+                          minimumSize: Size(30, 30),
                         ),
                       ),
                     ),
                   ],
+                ),
+                SizedBox(
+                  width: 50.0,
                 ),
                 SizedBox(
                   height: 40.0,
