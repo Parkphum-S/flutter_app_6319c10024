@@ -286,9 +286,6 @@ class _LoginUIState extends State<LoginUI> {
                   ],
                 ),
                 SizedBox(
-                  width: 50.0,
-                ),
-                SizedBox(
                   height: 40.0,
                 ),
                 Row(
