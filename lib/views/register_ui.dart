@@ -101,7 +101,7 @@ class _RegisterUIState extends State<RegisterUI> {
                   filled: true,
                   hintText: 'ป้อนอีเมล์',
                   prefixIcon: Icon(
-                    FontAwesomeIcons.user,
+                    Icons.email_outlined,
                     color: Colors.blue,
                   ),
                   floatingLabelBehavior: FloatingLabelBehavior.always,
@@ -137,7 +137,7 @@ class _RegisterUIState extends State<RegisterUI> {
                   filled: true,
                   hintText: 'ป้อนเบอร์โทรศัพท์',
                   prefixIcon: Icon(
-                    FontAwesomeIcons.user,
+                    Icons.phone_sharp,
                     color: Colors.blue,
                   ),
                   floatingLabelBehavior: FloatingLabelBehavior.always,
@@ -173,7 +173,7 @@ class _RegisterUIState extends State<RegisterUI> {
                   filled: true,
                   hintText: 'ป้อนรหัสผ่าน',
                   prefixIcon: Icon(
-                    FontAwesomeIcons.user,
+                    Icons.lock_outline,
                     color: Colors.blue,
                   ),
                   floatingLabelBehavior: FloatingLabelBehavior.always,
@@ -207,9 +207,9 @@ class _RegisterUIState extends State<RegisterUI> {
                 decoration: InputDecoration(
                   fillColor: Colors.white,
                   filled: true,
-                  hintText: 'ป้อนรยืนยันรหัสผ่าน',
+                  hintText: 'ป้อนยืนยันรหัสผ่าน',
                   prefixIcon: Icon(
-                    FontAwesomeIcons.user,
+                    Icons.lock_outline,
                     color: Colors.blue,
                   ),
                   floatingLabelBehavior: FloatingLabelBehavior.always,
