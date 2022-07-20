@@ -8,4 +8,4 @@
 
 -S6319c10024
 
-<img src ="https://i.ibb.co/YjHs0cD/Screenshot-20220720-212838.jpg" width="250"> &nbsp; <img src ="https://i.ibb.co/D8rs8sW/Screenshot-20220720-212046.jpg" width="250">
+<img src ="https://i.ibb.co/bdc9bsH/Screenshot-20220720-212838.jpg" width="250"> &nbsp; <img src ="https://i.ibb.co/D8rs8sW/Screenshot-20220720-212046.jpg" width="250">
